@@ -9,9 +9,9 @@ image:
 
 
   ingress:
-  enabled: true
-  className: ""
-  annotations: 
+    enabled: true
+    className: ""
+    annotations: 
       nginx.ingress.kubernetes.io/proxy-body-size: "0"
       ingress.kubernetes.io/ssl-redirect: "false"
       cert-manager.io/cluster-issuer: letsencrypt-prod
