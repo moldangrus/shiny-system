@@ -25,4 +25,4 @@ ingress:
   tls: 
   - secretName: prod-artemis-tls
     hosts:
-      - prod-artemis.awsmoldangrus.com
+      - awsmoldangrus.com
