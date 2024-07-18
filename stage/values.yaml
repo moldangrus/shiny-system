@@ -23,5 +23,5 @@ ingress:
           pathType: ImplementationSpecific
   tls: 
     - secretName: stage-artemis-tls
-    hosts:
-      - stage-artemis.awsmoldangrus.com
+      hosts:
+        - stage-artemis.awsmoldangrus.com

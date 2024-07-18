@@ -23,5 +23,5 @@ ingress:
           pathType: ImplementationSpecific
   tls: 
     - secretName: prod-artemis-tls
-    hosts:
-      - awsmoldangrus.com
+      hosts:
+        - awsmoldangrus.com
