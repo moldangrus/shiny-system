@@ -23,6 +23,6 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls: 
-  - secretName: qa-artemis-tls
+    - secretName: qa-artemis-tls
     hosts:
       - qa-artemis.awsmoldangrus.com

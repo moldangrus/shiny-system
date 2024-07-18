@@ -23,6 +23,6 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls: 
-  - secretName: dev-artemis-tls
+    - secretName: dev-artemis-tls
     hosts:
       - dev-artemis.awsmoldangrus.com
